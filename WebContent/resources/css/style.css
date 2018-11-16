@@ -1,0 +1,36 @@
+body {
+	background-color: #eee;
+}
+
+thead > tr > th {
+	border-left: 1px solid #ccc !important;
+}
+
+thead > tr > th:last-child {
+	border-left: none;	
+}
+
+/* tr > td:hover {
+	background-color: #fff;
+} */
+
+tr:hover {
+	background-color: rgba(84, 109, 229,0.2) !important;
+}
+
+nav {
+	z-index: 99;
+}
+
+.form-container {
+	max-width: 600px;
+	background-color: #fff;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px 10px;
+}
+
+.form-container > h2 {
+	padding-top: 2rem;
+}
